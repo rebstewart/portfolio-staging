@@ -1,5 +1,4 @@
 // Global styling for this template
-
 body {
     padding-top: $navbar-base-height;
     color: $gray-600;
@@ -34,4 +33,13 @@ p.lead {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1.5rem;
+}
+
+@include media-breakpoint-down(sm) {
+    *{
+        text-align:center;
+    }
+    li {
+        text-align: left;
+    }
 }
