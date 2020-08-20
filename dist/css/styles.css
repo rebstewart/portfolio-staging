@@ -6814,7 +6814,13 @@ p.lead {
     text-align: center; }
 
   li {
-    text-align: left; } }
+    text-align: left; }
+
+  body {
+    font-size: 1.15em; }
+
+  .subheading {
+    font-size: 1.7rem; } }
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
